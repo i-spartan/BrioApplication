@@ -6,6 +6,6 @@ export const HikeSearchFormStyled = styled.div`
     padding: 40px 43px;
 
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.2);
+    background: #0a0a0a36;
     backdrop-filter: blur(3px);
 `;

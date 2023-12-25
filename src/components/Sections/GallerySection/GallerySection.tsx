@@ -8,19 +8,24 @@ import SliderPhotoGallery, {
 import SubscriptionForm from '../../NewsSubscriptionForm/SubscriptionForm';
 import SectionHeader from '../../SectionHeader/SectionHeader';
 import Image from '../../Image/Image';
+import { Box } from '@mui/material';
 
 type Props = {
     photos: GalleryPhotoType[];
     tinySliderSettings: any;
+    knowMore: () => void;
+    submitForm: (prop1: any, prop2: any) => void;
+    downloadBroucher: () => void;
 };
 
-const GallerySection = ({ photos, tinySliderSettings }: Props) => {
+const GallerySection = ({ photos, tinySliderSettings, knowMore, submitForm, downloadBroucher }: Props) => {
     return (
         <ColoredSection>
-            <S.GallerySectionStyled>
+        <Box px={'15px'}>
+            <S.GallerySectionStyled> 
                 <SectionHeader
-                    description="What our customers are saying"
-                    title="Our Happy Customers"
+                    description="Eligance and Style"
+                    title="Create Your Own Customized Car"
                 />
                 <div className="gallery">
                     {photos.map(({ image, imageWebp, description }, index) => (
@@ -40,15 +45,16 @@ const GallerySection = ({ photos, tinySliderSettings }: Props) => {
                         ))}
                     </TinySlider>
                 </div>
-                <div className="button-outer">
+                <div className="button-outer" onClick={downloadBroucher}>
                     <Button
                         title="Download Broucher"
                         color="#FDFDFD"
-                        backgroundColor="#1A3E3E"
+                        backgroundColor="#063245"
                     />
                 </div>
-                <SubscriptionForm />
+                <SubscriptionForm submitForm={submitForm}/>
             </S.GallerySectionStyled>
+            </Box>
         </ColoredSection>
     );
 };

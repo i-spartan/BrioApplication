@@ -22,7 +22,7 @@ export const StyledBurgerMenu = styled.div`
         flex-direction: column;
         gap: 10px;
         padding: 16px;
-        background: #1a3e3e;
+        background: #063245;
     }
 
     .icon-wrapper {

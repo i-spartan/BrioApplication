@@ -5,22 +5,26 @@ import { Button } from '../../Button/Button';
 import TinySlider from 'tiny-slider-react';
 import 'tiny-slider/dist/tiny-slider.css';
 import SectionHeader from '../../SectionHeader/SectionHeader';
-
+import { Box } from '@mui/material';
 type Props = {
     hikes: Hike[];
     tinySliderSettings: any;
+    knowMore: () => void;
 };
 
-const PopularHikesSection = ({ hikes, tinySliderSettings }: Props) => {
+const PopularHikesSection = ({ hikes, tinySliderSettings, knowMore }: Props) => {
     return (
         <ColoredSection>
+        <Box px ={'15px'}>
             <S.PopularHikesSectionStyled>
+                <Box id='products'/>
                 <SectionHeader
                     description="Our Products"
                     title="Know More About Our Products"
                 />
                 <TinySlider settings={tinySliderSettings}>
-                    {hikes.map(
+            
+                {hikes.map(
                         (
                             {
                                 rating,
@@ -42,18 +46,21 @@ const PopularHikesSection = ({ hikes, tinySliderSettings }: Props) => {
                                 subTitle={subTitle}
                                 description={description}
                                 price={price}
+                                knowMore={knowMore}
                             />
                         ),
                     )}
+
                 </TinySlider>
-                <div className="button-outer">
+                <div className="button-outer" onClick={knowMore}>
                     <Button
                         title="Know More..."
                         color="#FDFDFD"
-                        backgroundColor="#1A3E3E"
+                        backgroundColor="#063245"
                     />
                 </div>
             </S.PopularHikesSectionStyled>
+            </Box>
         </ColoredSection>
     );
 };

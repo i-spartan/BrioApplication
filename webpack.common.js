@@ -34,7 +34,7 @@ module.exports = (env, argv) => ({
                 ],
             },
             {
-                test: /\.(png|jpg|jpeg|webp|svg)$/i,
+                test: /\.(png|jpg|jpeg|webp|svg|pdf|gif)$/i,
                 type: 'asset/resource',
             },
         ],
@@ -49,6 +49,9 @@ module.exports = (env, argv) => ({
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
         }),
+        // new webpack.DefinePlugin({
+        //     'process.env.NODE_ENV': JSON.stringify('development')
+        // })
     ],
     resolve: {
         extensions: ['.js', '.ts', '.tsx', '.json', '.css', '.html'],

@@ -6,10 +6,13 @@ import houseVideoPreview from '../../../assets/images/house-video-preview.jpg';
 import houseVideoPreviewWebp from '../../../assets/images/house-video-preview.webp';
 import SectionHeader from '../../SectionHeader/SectionHeader';
 import Image from '../../Image/Image';
+import ReactPlayer from 'react-player'
+import { Box } from '@mui/material';
 
-const AboutSection = () => {
+const AboutSection = ({ openModalFunc }: any) => {
     return (
         <ColoredSection>
+        <Box px={'15px'}>
             <S.StyledAboutSection>
                 <div className="article-outer">
                     <article className="article">
@@ -29,26 +32,31 @@ const AboutSection = () => {
                                 display: 'flex',
                                 justifyContent: 'center',
                             }}
+                            onClick={openModalFunc}
                         >
                             <Button
                                 title="Know More..."
                                 color="#FDFDFD"
-                                backgroundColor="#1A3E3E"
+                                backgroundColor="#063245"
                             />
                         </div>
                     </article>
                 </div>
                 <div className="image-outer">
                     <div className="image-wrapper">
-                        <Image
+                        {/* <Image
                             className="image"
                             imageWebp={houseVideoPreviewWebp}
                             image={houseVideoPreview}
                             alt="Video preview"
-                        />
+                        /> */}
+                        <div className="image">
+                            <ReactPlayer height='80%' width='100%' url='https://www.youtube.com/watch?v=wdBNBx62D7w' />
+                        </div>
                     </div>
                 </div>
             </S.StyledAboutSection>
+            </Box>
         </ColoredSection>
     );
 };

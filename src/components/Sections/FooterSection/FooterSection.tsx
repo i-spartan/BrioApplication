@@ -15,10 +15,12 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { Box } from '@mui/material';
 
-const FooterSection = () => {
+const FooterSection = ({onMenuItemClick}: any) => {
     return (
         <S.StyledFooterSection>
+            <Box px={'15px'}>
             <Container>
                 <div className="wrapper">
                     <div className="section contacts-wrapper">
@@ -32,7 +34,7 @@ const FooterSection = () => {
                             />
                         </T.Title3>
                         <T.Text2 color="#fff" marginBottom={30}>
-                            <PlaceIcon /> 6st Floor, Plot Number 17, <br />
+                        <PlaceIcon sx={{color: 'rgb(182, 125, 2)'}}/> 6st Floor, Plot Number 17, <br />
                             Road Number 7, Near Jubilee Hills Metro Station<br />
                             Rd no. 5, Hyderabad, Telangana, 500033
                         </T.Text2>
@@ -46,29 +48,24 @@ const FooterSection = () => {
                         </div>
                         <div className="social-networks">
                             <IconButton
-                                icon={() => <><PlaceIcon/></>}
-                                onClick={() => null}
-                                ariaLabel="Telegram"
+                                icon={() => <><LinkedInIcon /></>}
+                                onClick={() => window.open('https://www.linkedin.com/company/brioelevators/?viewAsMember=true', "_blank")}
+                                ariaLabel="linkedin"
                             />
                             <IconButton
                                 icon={() => <><FacebookIcon/></>}
-                                onClick={() => null}
-                                ariaLabel="VK"
-                            />
-                            <IconButton
-                                icon={() => <><PinterestIcon/></>}
-                                onClick={() => null}
-                                ariaLabel="Pinterest"
+                                onClick={() => window.open('https://www.facebook.com/BRIOElevators?mibextid=ZbWKwL', "_blank")}
+                                ariaLabel="facebook"
                             />
                             <IconButton
                                 icon={() => <><YouTubeIcon/></>}
-                                onClick={() => null}
-                                ariaLabel="Skype"
+                                onClick={() => window.open('https://www.youtube.com/@BrioElevators', "_blank")}
+                                ariaLabel="youtube"
                             />
                              <IconButton
                                 icon={() => <><InstagramIcon/></>}
-                                onClick={() => null}
-                                ariaLabel="Skype"
+                                onClick={() => window.open('https://www.instagram.com/brioelevators/', "_blank")}
+                                ariaLabel="instagram"
                             />
                         </div>
                     </div>
@@ -80,10 +77,11 @@ const FooterSection = () => {
                         <T.Title3 color="#F3F5F4">
                             Important Links
                         </T.Title3>
-                        <Navigation links={FOOTER_LINKS2} />
+                        <Navigation links={FOOTER_LINKS2} onMenuItemClick={onMenuItemClick}/>
                     </div>
                 </div>
             </Container>
+            </Box>
         </S.StyledFooterSection>
     );
 };

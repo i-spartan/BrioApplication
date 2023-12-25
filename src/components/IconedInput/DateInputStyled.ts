@@ -24,8 +24,8 @@ export const DateInputStyled = styled.label`
         padding: 14px 16px;
         border-radius: 8px;
         border: 1px solid #e1e3e4;
-        background: url(${CalendarIcon.replace('\\', '/')}) no-repeat right
-            0.8em center;
+        // background: url(${CalendarIcon.replace('\\', '/')}) no-repeat right
+        //     0.8em center;
 
         color: #fdfdfd;
         font-size: 16px;
@@ -33,6 +33,11 @@ export const DateInputStyled = styled.label`
         font-weight: 700;
         line-height: 24px;
     }
+    ::placeholder {
+        font-style: italic;
+        color: #ffffffb3;
+        // opacity: 1; /* Firefox */
+      }
 
     .label {
         padding: 0 8px;

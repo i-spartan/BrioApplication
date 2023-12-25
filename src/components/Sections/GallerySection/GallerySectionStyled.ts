@@ -73,7 +73,7 @@ export const GallerySectionStyled = styled.div`
         }
 
         .button-outer {
-            margin-bottom: 118px;
+            margin-bottom: 267px;
         }
     }
 `;

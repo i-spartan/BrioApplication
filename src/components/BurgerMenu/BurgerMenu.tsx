@@ -6,8 +6,13 @@ import Navigation from '../Navigation/Navigation';
 import { MENU_LINKS } from '../../constants';
 import IconButton from '../IconButton/IconButton';
 
-const BurgerMenu = () => {
+const BurgerMenu = ({onMenuItemClick}: any) => {
     const [open, setOpen] = useState<boolean>(false);
+
+    const onMenuItemClickFunc = (prop: any) => {
+        setOpen(false);
+        onMenuItemClick(prop);
+    }
 
     return (
         <S.StyledBurgerMenu>
@@ -25,7 +30,7 @@ const BurgerMenu = () => {
                             ariaLabel="Close menu"
                         />
                     </div>
-                    <Navigation links={MENU_LINKS} />
+                    <Navigation links={MENU_LINKS} onMenuItemClick={onMenuItemClickFunc}/>
                 </div>
             </div>
         </S.StyledBurgerMenu>

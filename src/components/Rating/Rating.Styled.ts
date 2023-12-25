@@ -19,7 +19,7 @@ export const StyledRating = styled.div<Props>`
     justify-content: center;
     align-items: center;
 
-    color: #1a3e3e;
+    color: #063245;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;

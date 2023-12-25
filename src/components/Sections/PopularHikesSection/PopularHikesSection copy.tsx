@@ -50,7 +50,7 @@ const PopularHikesSection = ({ hikes, tinySliderSettings }: Props) => {
                     <Button
                         title="Рейтинг направлений"
                         color="#FDFDFD"
-                        backgroundColor="#1A3E3E"
+                        backgroundColor="#063245"
                     />
                 </div>
             </S.PopularHikesSectionStyled>

@@ -40,8 +40,10 @@ export const StyledAboutSection = styled.div`
 
     .image {
         object-fit: contain;
-        height: 100%;
-        width: 100%;
+        // height: 100%;
+        // width: 100%;
+        height: 250px;
+        width: 350px;
         border-radius: 24px;
     }
 
@@ -50,6 +52,11 @@ export const StyledAboutSection = styled.div`
         grid-template: 1fr / 1fr 1fr;
         grid-template-areas: 'images article';
         padding: 100px 0;
+
+        .image {
+            height: 355px;
+            width: 455px;
+        }
 
         .image-outer {
             height: 526px;

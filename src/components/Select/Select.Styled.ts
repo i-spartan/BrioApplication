@@ -28,7 +28,7 @@ export const SelectStyled = styled.label`
     }
 
     .select option {
-        color: #1a3e3e;
+        color: #063245;
         background: rgba(255, 255, 255, 0.2);
     }
 

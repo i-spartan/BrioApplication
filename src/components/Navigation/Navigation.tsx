@@ -1,18 +1,19 @@
-import NavLink, { NavLinkType } from '../NavLink/NavLink';
+import NavLink from '../NavLink/NavLink';
 import * as S from './Navigation.Styled';
 
 type Props = {
-    links: NavLinkType[];
+    links: any[];
     column?: boolean;
     showArrow?: boolean;
+    onMenuItemClick?: (prop: any) => void;
 };
 
-const Navigation = ({ links, column = true, showArrow }: Props) => {
+const Navigation = ({ links, column = true, showArrow, onMenuItemClick }: Props) => {
     return (
         <S.StyledNavigation column={column}>
-            {links.map(({ text }, index) => {
+            {links.map(({ text, showLocation }, index) => {
                 return (
-                    <NavLink key={index} text={text} showArrow={showArrow} />
+                    <NavLink key={index} text={text} showLocation = {showLocation} showArrow={showArrow} onMenuItemClick={onMenuItemClick}/>
                 );
             })}
         </S.StyledNavigation>

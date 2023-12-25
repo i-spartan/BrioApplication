@@ -5,8 +5,9 @@ import Container from '../Container/Container';
 import LogoIcon from '../Icons/BrioLogoV1.png';
 import HikeSearchForm from '../HikeSearchForm/HikeSearchForm';
 import { Button } from '../Button/Button';
+import { Typography } from '@mui/material';
 
-const Header = () => {
+const Header = ({submitForm, openModalFunc, onMenuItemClick}: any) => {
     return (
         <S.StyledHeader>
             <Container>
@@ -15,17 +16,19 @@ const Header = () => {
                     <img
                   src={LogoIcon}
                   alt="BigCo Inc. logo"
-                  style={{ width: "25%", height: '120%' }}
+                  style={{ width: "25%", height: '180%' }}
                 />
-                    <Menu />
-                    <BurgerMenu />
+                    <Menu onMenuItemClick={onMenuItemClick}/>
+                    <BurgerMenu onMenuItemClick={onMenuItemClick}/>
                 </header>
                 <S.H1>
-                    Brio Elevates Your Expectations
+                <Typography sx={{ fontFamily: 'Fredericka the Great', textAlign: 'center', fontSize: { sm: '2rem', md: '3rem', lg: '4rem' }}}>
+                  BRIO, ELEVATES YOUR EXPECTATIONS
+                </Typography>
                 </S.H1>
-                <HikeSearchForm className="hike-search-form" />
-                <div className="hike-search-btn">
-                    <Button title="Найти программу" color="#1A3E3E" large />
+                <HikeSearchForm className="hike-search-form" submitForm={submitForm}/>
+                <div className="hike-search-btn" style={{justifyContent: 'center'}} onClick={openModalFunc}>
+                    <Button title="Get Free Site Visit" color="#063245" large />
                 </div>
             </Container>
         </S.StyledHeader>

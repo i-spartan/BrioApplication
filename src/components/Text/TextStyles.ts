@@ -102,6 +102,11 @@ export const Text1 = styled(Text)<TextProps>`
     line-height: 20px;
 `;
 
+export const Text0 = styled(Text)<TextProps>`
+    font-size: 24px;
+    line-height: 20px;
+`;
+
 export const Text2 = styled(Text)<TextProps>`
     font-size: 14px;
     line-height: 20px; /* 142.857% */

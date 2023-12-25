@@ -36,7 +36,7 @@ const BlogSection = ({ posts, tinySliderSettings }: Props) => {
                     <Button
                         title="Другие материалы"
                         color="#FDFDFD"
-                        backgroundColor="#1A3E3E"
+                        backgroundColor="#063245"
                     />
                 </div>
             </S.BlogSectionStyled>

@@ -1,17 +1,25 @@
 import * as S from './Menu.Styled';
 import { MENU_LINKS } from '../../constants';
 import Navigation from '../Navigation/Navigation';
-import { Button } from '../Button/Button';
+import PhoneIcon from '@mui/icons-material/Phone';
+import * as SL from '../Button/ButtonStyles';
+import * as T from '../Text/TextStyles';
 
-const Menu = () => {
+const Menu = ({onMenuItemClick}: any) => {
     return (
         <S.StyledMenu>
-            <Navigation links={MENU_LINKS} column={false} showArrow={false} />
-            <Button
+            <Navigation links={MENU_LINKS} column={false} showArrow={false} onMenuItemClick={onMenuItemClick}/>
+            {/* <Button
                 title="Request Call Back"
                 color="#FDFDFD"
-                backgroundColor="#1A3E3E"
-            />
+                backgroundColor="#063245"
+            /> */}
+            <SL.StyledButton backgroundColor={'#063245'} large={false}>
+            <T.Text1 color={"#f2be22"} weight={700}>
+                {<><PhoneIcon sx={{fontSize: 'large', paddingTop: '0.1rem'}}/>{ ' ' } +91-9398113939</>}
+                
+            </T.Text1>
+        </SL.StyledButton>
         </S.StyledMenu>
     );
 };

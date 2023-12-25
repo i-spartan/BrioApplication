@@ -32,11 +32,11 @@ const BlogPostCard = ({
                 </div>
                 <div className="content">
                     <div className="title">
-                        <S.H2>{}</S.H2>
+                    <S.H2>{title}</S.H2>
                     </div>
                     <div className="text">
-                        {/* <S.Text2>{text}</S.Text2> */}
-                        <S.H2>{title}</S.H2>
+                        <S.Text2>{text}</S.Text2>
+                        
                     </div>
                     {/* <div className="footer">
                         <S.Text2 color={'#F2BE22'} weight={700}>
@@ -46,7 +46,7 @@ const BlogPostCard = ({
                             className="read-link"
                             to="#"
                             weight={700}
-                            color={'#1A3E3E'}
+                            color={'#063245'}
                         >
                             Читать статью
                         </T.StyledLink>

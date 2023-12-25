@@ -8,14 +8,17 @@ import AdvantageIconCard from '../../AdvantageIconCard/AdvantageIconCard';
 import { Button } from '../../Button/Button';
 import SectionHeader from '../../SectionHeader/SectionHeader';
 import Image, { ImageType } from '../../Image/Image';
+import { Box } from '@mui/material';
 
 type Props = {
     images: ImageType[];
+    downloadBroucher: () => void;
 };
 
-const AdvantagesSection = ({ images }: Props) => {
+const AdvantagesSection = ({ images, downloadBroucher }: Props) => {
     return (
         <ColoredSection backgroundColor="#F3F5F4">
+            <Box px={'15px'}>
             <S.StyledAdvantagesSection>
                 <div className="article-outer">
                     <article className="article">
@@ -85,11 +88,11 @@ const AdvantagesSection = ({ images }: Props) => {
                                 </T.Text2>
                             </div>
                         </div>
-                        <div className="btn-wrapper">
+                        <div className="btn-wrapper" onClick={downloadBroucher}>
                             <Button
-                                title="Know More..."
+                                title="Download Broucher"
                                 color="#FDFDFD"
-                                backgroundColor="#1A3E3E"
+                                backgroundColor="#063245"
                             />
                         </div>
                     </article>
@@ -110,6 +113,7 @@ const AdvantagesSection = ({ images }: Props) => {
                     </div>
                 </div>
             </S.StyledAdvantagesSection>
+            </Box>
         </ColoredSection>
     );
 };

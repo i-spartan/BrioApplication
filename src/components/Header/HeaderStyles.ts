@@ -45,17 +45,17 @@ export const StyledHeader = styled.section`
 export const H1 = styled.h1<TextProps>`
     ${commonTextStyles};
     color: #fdfdfd;
-    font-family: 'NEXT ART', sans-serif;
-    font-size: 28px;
+    font-family: 'Fredericka the Great';
+    font-size: 35px;
     font-weight: 700;
     line-height: 42px;
-    margin: auto 0 32px;
+    margin-top: 320px;
 
     @media (min-width: 1180px) {
-        font-size: 50px;
+        font-size: 60px;
         font-weight: 700;
         line-height: 75px;
         letter-spacing: 1px;
-        margin: auto 0 41px;
+        margin-top: 320px;
     }
 `;

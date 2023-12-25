@@ -4,7 +4,7 @@ import { commonTextStyles, TextProps } from '../Text/TextStyles';
 export const StyledHikeCard = styled.div`
     .card {
         position: relative;
-        width: 285px;
+        width: 185px;
         height: 400px;
     }
 
@@ -18,7 +18,7 @@ export const StyledHikeCard = styled.div`
 
     .content {
         width: 100%;
-        padding: 20px 24px 25px;
+        padding: 20px 20px 23px 20px;
         border-radius: 0 0 24px 24px;
         background: rgba(255, 255, 255, 0.2);
         backdrop-filter: blur(3px);
@@ -37,17 +37,21 @@ export const StyledHikeCard = styled.div`
     }
 
     .description-wrapper {
-        margin-top: 38px;
+        // margin-top: 38px;
         display: none;
+        // margin-bottom: 100px;
+        width: 95%;
+        background-color: #ffffffb8;
     }
 
     .description {
-        overflow: hidden;
+        // overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
         -webkit-line-clamp: 9;
         -webkit-box-orient: vertical;
         margin-bottom: auto;
+        color: #063245;
     }
 
     .button-wrapper {
@@ -74,23 +78,25 @@ export const StyledHikeCard = styled.div`
 
     @media (min-width: 1180px) {
         .card {
-            width: 380px;
+            width: 300px;
             height: 500px;
 
             &:hover {
                 .rating {
                     opacity: 0;
                 }
-
+    
                 .content {
                     height: 100%;
                     transform: translateY(-410px);
-
+    
                     .description-wrapper {
                         display: flex;
-                        flex-grow: 1;
+                        // flex-grow: 1;
+                        height: 90%;
+                        width: 95%;
                     }
-
+    
                     .button-wrapper {
                         display: flex;
                     }
@@ -107,7 +113,7 @@ export const StyledHikeCard = styled.div`
         }
 
         .content {
-            top: 410px;
+            top: 400px;
         }
 
         .subtitle {
@@ -127,7 +133,7 @@ export const CardTitle = styled.h3<TextProps>`
     line-height: 21.6px;
 
     @media (min-width: 1180px) {
-        font-size: 24px;
+        font-size: 21px;
         line-height: 28.8px;
     }
 `;

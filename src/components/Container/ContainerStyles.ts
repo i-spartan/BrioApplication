@@ -14,8 +14,8 @@ export const StyledContainer = styled.div.attrs({
     width: 100%;
     max-width: 1180px;
     margin: 0 auto;
-    padding-right: ${({ paddingRight }) => paddingRight ?? '16'}px;
-    padding-left: ${({ paddingLeft }) => paddingLeft ?? '16'}px;
+    // padding-right: ${({ paddingRight }) => paddingRight ?? '16'}px;
+    // padding-left: ${({ paddingLeft }) => paddingLeft ?? '16'}px;
     ${({ gap }) =>
         gap &&
         `

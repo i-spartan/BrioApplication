@@ -11,6 +11,7 @@ export type Hike = {
     subTitle: string;
     description: string;
     price: string;
+    knowMore?: () => void;
 } & ImageType;
 
 const HikeCard = memo(
@@ -22,6 +23,7 @@ const HikeCard = memo(
         subTitle,
         description,
         price,
+        knowMore
     }: Hike) => {
         return (
             <S.StyledHikeCard>
@@ -43,16 +45,16 @@ const HikeCard = memo(
                     <div className="content">
                         <div className="content-header">
                             <div className="titles">
-                                <S.CardTitle color="#FDFDFD">
+                                <S.CardTitle color="#063245">
                                     {title}
                                 </S.CardTitle>
-                                <T.Text3
+                                {/* <T.Text3
                                     className="subtitle"
                                     color="#FDFDFD"
                                     weight={400}
                                 >
                                     {subTitle}
-                                </T.Text3>
+                                </T.Text3> */}
                             </div>
                             {/* <div className="price">
                                 <S.CardPrice color="#FDFDFD">
@@ -63,17 +65,17 @@ const HikeCard = memo(
                         <div className="description-wrapper">
                             <T.Text1
                                 className="description"
-                                color="#FDFDFD"
+                                color="#f2be22"
                                 lineHeight={24}
                             >
                                 {description}
                             </T.Text1>
                         </div>
-                        <div className="button-wrapper">
+                        <div className="button-wrapper" onClick={knowMore}>
                             <Button
                                 title="Know More..."
                                 color="#FDFDFD"
-                                backgroundColor="#1A3E3E"
+                                backgroundColor="#063245"
                             />
                         </div>
                     </div>

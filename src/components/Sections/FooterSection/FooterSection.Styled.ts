@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledFooterSection = styled.section`
-    background: #1a3e3e;
+    background: #063245;
     padding: 50px 0 80px;
 
     .wrapper {
@@ -35,7 +35,7 @@ export const StyledFooterSection = styled.section`
     }
 
     @media (min-width: 1180px) {
-        padding: 304px 0 80px;
+        padding: 345px 0 80px;
 
         .wrapper {
             flex-direction: row;

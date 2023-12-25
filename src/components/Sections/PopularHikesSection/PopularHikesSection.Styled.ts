@@ -5,7 +5,7 @@ export const PopularHikesSectionStyled = styled.div`
     flex-direction: column;
     gap: 32px;
     padding: 50px 0;
-
+    
     .button-outer {
         display: flex;
         justify-content: center;

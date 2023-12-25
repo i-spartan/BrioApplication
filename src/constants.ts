@@ -1,43 +1,44 @@
 import { Hike } from './components/HikeCard/HikeCard';
-import lakeImage from './assets/images/lake_in_mountains.jpg';
-import lakeWebp from './assets/images/lake_in_mountains.webp';
-import mountainsNight from './assets/images/nignt_in_mountains.jpg';
-import mountainsNightWebp from './assets/images/nignt_in_mountains.webp';
-import mountainsJoga from './assets/images/joga_in_mountains.jpg';
-import mountainsJogaWebp from './assets/images/joga_in_mountains.webp';
-import italyImg from './assets/images/italy_post.jpg';
-import italyWebp from './assets/images/italy_post.webp';
-import flightImg from './assets/images/flight_post.png';
-import flightWebp from './assets/images/flight_post.webp';
-import backpackImg from './assets/images/backpack_post.png';
-import backpackWebp from './assets/images/backpack_post.webp';
-import mosqueImg from './assets/images/mosque_post.png';
-import mosqueWebp from './assets/images/mosque_post.webp';
-import balloons from './assets/images/balloons.jpg';
-import balloonsWebp from './assets/images/balloons.webp';
-import lakeAndMountain from './assets/images/lake_and_mountain.jpg';
-import lakeAndMountainWebp from './assets/images/lake_and_mountain.webp';
-import palms from './assets/images/palms.jpg';
-import palmsWebp from './assets/images/palms.webp';
-import photosOnMap from './assets/images/photos_and_map.jpg';
-import photosOnMapWebp from './assets/images/photos_and_map.webp';
-import rainbow from './assets/images/rainbow.jpg';
-import rainbowWebp from './assets/images/rainbow.webp';
-import waterfall from './assets/images/waterfall.jpg';
-import waterfallWebp from './assets/images/waterfall.webp';
-import backpackerImg from './assets/images/advantages_backpacker_lake.jpg';
-import backpackerWebp from './assets/images/advantages_backpacker_lake.webp';
-import fieldMountainImg from './assets/images/advantages_field_mountain.jpg';
-import fieldMountainWebp from './assets/images/advantages_field_mountain.webp';
-import fireImg from './assets/images/advantages_fire.jpg';
-import fireWebp from './assets/images/advantages_fire.webp';
-import yellowCoatImg from './assets/images/advantages_yellow_coat.jpg';
-import yellowCoatWebp from './assets/images/advantages_yellow_coat.webp';
+import lakeImage from './assets/images/gearLessBelt.jpg';
+import lakeWebp from './assets/images/gearLessBelt.jpg';
+import mountainsNight from './assets/images/gearLessRope.jpg';
+import mountainsNightWebp from './assets/images/gearLessRope.jpg';
+import mountainsJoga from './assets/images/hydraulic.jpg';
+import mountainsJogaWebp from './assets/images/hydraulic.jpg';
+import mobilitySeries from './assets/images/mobilitySeries.jpg';
+import mobilitySeriesWebp from './assets/images/mobilitySeries.jpg';
+import italyImg from './assets/images/gearless.jpg';
+import italyWebp from './assets/images/gearless.jpg';
+import flightImg from './assets/images/energySaving.jpg';
+import flightWebp from './assets/images/energySaving.jpg';
+import backpackImg from './assets/images/intelligentControlSystems.jpg';
+import backpackWebp from './assets/images/intelligentControlSystems.jpg';
+import mosqueImg from './assets/images/intelligentControls.jpg';
+import mosqueWebp from './assets/images/intelligentControls.jpg';
+import homeSeriesImage from './assets/images/homeSeriesImage.jpg';
+import homeSeriesImagesWebp from './assets/images/homeSeriesImage.jpg';
+import lakeAndMountain from './assets/images/homeseriesImage1.jpg';
+import lakeAndMountainWebp from './assets/images/homeseriesImage1.jpg';
+import palms from './assets/images/massonarylift.jpg';
+import palmsWebp from './assets/images/massonarylift.jpg';
+import photosOnMap from './assets/images/eligance4.jpg';
+import photosOnMapWebp from './assets/images/eligance4.jpg';
+import rainbow from './assets/images/nopitElevatioinImage.jpg';
+import rainbowWebp from './assets/images/nopitElevatioinImage.jpg';
+import waterfall from './assets/images/eligance2.jpg';
+import waterfallWebp from './assets/images/eligance2.jpg';
+import backpackerImg from './assets/images/tuv2.jpg';
+import backpackerWebp from './assets/images/tuv2.jpg';
+import fieldMountainImg from './assets/images/tuvImg.png';
+import fieldMountainWebp from './assets/images/tuvImg.png';
+import fireImg from './assets/images/5yersImg.png';
+import fireWebp from './assets/images/5yersImg.png';
+import yellowCoatImg from './assets/images/liftImg.jpg';
+import yellowCoatWebp from './assets/images/liftImg.jpg';
 import { BlogPostCardType } from './components/BlogPostCard/BlogPostCard';
 import { GalleryPhotoType } from './components/PhotoGallery/SliderPhotoGallery';
 import { NavLinkType } from './components/NavLink/NavLink';
 import { ImageType } from './components/Image/Image';
-
 
 export const PRODUCTS: any[] = [
     {
@@ -47,7 +48,7 @@ export const PRODUCTS: any[] = [
         title: 'BRIO GEARLESS BELT',
         // subTitle: 'романтическое приключение',
         description:
-            'Прекрасное озеро в окружении каменных великанов. Вы проведёте незабываемое время с теми, кто для вас важен. В эту поездку вы получите заряд сил на долгое время. Горы не оставляют равнодушным никого. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.',
+            'Elevate your expectations with our cutting-edge Belt technology and rivet-less shaft, setting our elevators apart globally. While competitors struggle to meet current home elevator standards like MD 2006 42 EC and EN 81-41, our elevators not only meet but exceed them. With the ability to easily update and diagnose, we confidently dominate the Home Elevator Industry.',
         // price: '480$',
     },
     {
@@ -57,27 +58,27 @@ export const PRODUCTS: any[] = [
         title: 'BRIO GEARLESS ROPE',
         // subTitle: 'в компании друзей',
         description:
-            'Звёздная ночь в горах в кругу единомышленников. Что может быть лучше? Ночёвка в комфортабельных домиках.',
+            'BRIO Gearless unique traction lift solution that complies with lifts Directive 2014/33/EU. Installation can be customized to any architectural need and design, even special and challenging projects. It is an elegant and, above all, truly convenient solution, allowing for perfect fitting within any existing or new building.',
         // price: '500$',
     },
     {
         // rating: 0,
         image: mountainsJoga,
         imageWebp: mountainsJogaWebp,
-        title: 'BRIO HYDRAULI',
+        title: 'BRIO HYDRAULI Elevator',
         // subTitle: 'для тех, кто забоится о себе',
         description:
-            'Для всех кто любит активный отдых и физические упражнения, чтобы улучшать свое здоровье и вести за собой здоровый образ жизни. Йога действует не только тонизирует мышцы и улучшает дыхание, но и позволяет углубить контакт с окружающей средой, с собой и, следовательно, с найди свою гармонию внутреннее и собственное душевное равновесие.',
+            'Indulge in opulence with our Brio Imported Hydraulic Technology, a versatile lift designed for an array of applications. Powered by established and dependable hydraulic technology, this system ensures a seamless and reliable experience.',
         // price: '270$',
     }, 
     {
         // rating: 0,
-        image: mountainsJoga,
-        imageWebp: mountainsJogaWebp,
+        image: mobilitySeries,
+        imageWebp: mobilitySeriesWebp,
         title: 'BRIO MOBILITY SERIES',
         // subTitle: 'для тех, кто забоится о себе',
         description:
-            'Для всех кто любит активный отдых и физические упражнения, чтобы улучшать свое здоровье и вести за собой здоровый образ жизни. Йога действует не только тонизирует мышцы и улучшает дыхание, но и позволяет углубить контакт с окружающей средой, с собой и, следовательно, с найди свою гармонию внутреннее и собственное душевное равновесие.',
+            'Our extensive product lineup ensures that we provide an accessibility solution tailored to every home. Just as each unit is uniquely crafted to user specifications, our diverse product range is meticulously designed to cater to the individual needs of every customer.',
         // price: '270$',
     },
 ];
@@ -91,7 +92,7 @@ export const HIKES: Hike[] = [
         subTitle: 'романтическое приключение',
         description:
             'Прекрасное озеро в окружении каменных великанов. Вы проведёте незабываемое время с теми, кто для вас важен. В эту поездку вы получите заряд сил на долгое время. Горы не оставляют равнодушным никого. Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых странных слов в Lorem Ipsum, "consectetur"и занялся его поисками в классической латинской литературе.',
-        price: '480$',
+        price: '480$'
     },
     {
         rating: 4.9,
@@ -101,7 +102,7 @@ export const HIKES: Hike[] = [
         subTitle: 'в компании друзей',
         description:
             'Звёздная ночь в горах в кругу единомышленников. Что может быть лучше? Ночёвка в комфортабельных домиках.',
-        price: '500$',
+        price: '500$'
     },
     {
         rating: 4.9,
@@ -111,7 +112,7 @@ export const HIKES: Hike[] = [
         subTitle: 'для тех, кто забоится о себе',
         description:
             'Для всех кто любит активный отдых и физические упражнения, чтобы улучшать свое здоровье и вести за собой здоровый образ жизни. Йога действует не только тонизирует мышцы и улучшает дыхание, но и позволяет углубить контакт с окружающей средой, с собой и, следовательно, с найди свою гармонию внутреннее и собственное душевное равновесие.',
-        price: '270$',
+        price: '270$'
     },
 ];
 
@@ -143,32 +144,32 @@ export const ELIGANCEANDSTYLE: any[] = [
         image: italyImg,
         imageWebp: italyWebp,
         // alt: 'Вид Италии',
-        title: 'Classic',
-        // text: 'Италия - одна из самых красивых стран в мире. Здесь есть что посмотреть - и древняя архитектура, и музеи, и захватывающие дух береговые линии, и потрясающие пейзажи.',
+        title: 'Expertise In GearLess',
+        text: 'Through our expertise in engineering. We have developed a high-quality gearless home elevator. The result is a high-performance addition to your home that you can hardly hear, even when you put your ear elevator.',
         // date: '01/04/2023',
     },
     {
         image: flightImg,
         imageWebp: flightWebp,
         // alt: 'Полёт самолёта в облаках',
-        title: 'Pro-Cabin',
-        // text: 'Отправляясь в путешествие, вы никогда не знаете какие открытия и судьбоносные встречи вас ожидают.',
+        title: 'Energy Efficient',
+        text: ' In todays world, energy efficiency is paramount, and Brio Elevators stands at the forefront of Evolutionizing vertical Transportation by prioritizing sustainability. Our Elevators are Engineered to not only elevate people but also Elevate energy efficiency to new heights',
         // date: '01/04/2023',
     },
     {
         image: backpackImg,
         imageWebp: backpackWebp,
         // alt: 'Путешественник',
-        title: 'Elite Cabin',
-        // text: 'Благодаря путешествиям вы сможете посмотреть на жизнь по новому. Вы обретёте свободу и возможность видеть страны так, ка вы этого хотите.',
+        title: 'Reliable solutions',
+        text: 'In case of a power failure, our home elevators will continue to work from a battery, allowing the user to reach the ground floor safely. It is also possible to connect a Fire Alarm System to the main Electronic Board.',
         // date: '02/05/2023',
     },
     {
         image: mosqueImg,
         imageWebp: mosqueWebp,
         // alt: 'Вид на мечеть',
-        title: 'Elegance',
-        // text: 'Одна из тех стран, которая никого не оставляет равнодушным. Индия имеет долгую и богатую историю.',
+        title: 'Intelligent control systems',
+        text: 'Our Elevators are equipped with Intelligent Control Systems that adapt to usage patterns. They optimize elevator operation by predicting passenger demand, reducing unnecessary stops, and minimizing idle time, all while conserving energy.',
         // date: '03/06/2023',
     },
 ];
@@ -210,8 +211,8 @@ export const POSTS: BlogPostCardType[] = [
 
 export const PHOTOS: GalleryPhotoType[] = [
     {
-        image: balloons,
-        imageWebp: balloonsWebp,
+        image: homeSeriesImage,
+        imageWebp: homeSeriesImagesWebp,
         description: 'Фестиваль воздушных шаров',
     },
     {
@@ -242,16 +243,16 @@ export const MENU_LINKS: NavLinkType[] = [
     // { text: 'Контакты' },
     { text: 'Home', showArrow: false },
     { text: 'Products', showArrow: false },
-    { text: 'Blogs', showArrow: false },
-    { text: 'Contact', showArrow: false }
+    { text: 'Blog', showArrow: false },
+    // { text: 'Contact', showArrow: false }
 ];
 
-export const FOOTER_LINKS1: NavLinkType[] = [
-    { text: 'Hyderabad', showArrow: false },
-    { text: 'Kochi', showArrow: false },
-    { text: 'Chennai', showArrow: false },
-    { text: 'Vijayawada', showArrow: false },
-    { text: 'Bangalore', showArrow: false },
+export const FOOTER_LINKS1: any[] = [
+    { text: 'Hyderabad', showArrow: false, showLocation: true },
+    { text: 'Kochi', showArrow: false, showLocation: true },
+    { text: 'Chennai', showArrow: false, showLocation: true },
+    { text: 'Vijayawada', showArrow: false, showLocation: true },
+    { text: 'Bangalore', showArrow: false, showLocation: true },
     // { text: 'Поездка в Африку' },
 ];
 

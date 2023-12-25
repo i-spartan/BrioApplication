@@ -14,6 +14,7 @@ export const StyledSubscriptionForm = styled.div`
     .form-outer {
         display: flex;
         flex-direction: column;
+        // width: 60%;
     }
 
     .form {
@@ -33,7 +34,7 @@ export const StyledSubscriptionForm = styled.div`
         transform: translateY(50%);
         flex-direction: row;
         gap: 64px;
-        padding: 40px 100px;
+        padding: 40px 100px 40px 100px;
 
         .form {
             // flex-direction: row;
