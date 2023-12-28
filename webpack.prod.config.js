@@ -28,7 +28,7 @@ module.exports = (env, argv) =>
                                 ['gifsicle', { interlaced: true }],
                                 ['jpegtran', { progressive: true }],
                                 ['optipng', { optimizationLevel: 5 }],
-                                ['mozjpeg', { quality: 85 }],
+                                // ['mozjpeg', { quality: 85 }],
                                 ['svgo', { name: 'preset-default' }],
                             ],
                         },
