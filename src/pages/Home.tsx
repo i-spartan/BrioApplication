@@ -164,7 +164,7 @@ const HomePage = () => {
                 // <a target="_blank" href="https://icons8.com/icon/Pp4aFcYLLRYp/ringer-volume">Ringer Volume</a>
                 onClick={() => {
                     const link = document.createElement('a');
-                    link.href = 'tel:+997186373';
+                    link.href = 'tel:+91-9398113939';
                     link.click();
                 }}
             >

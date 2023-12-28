@@ -39,7 +39,8 @@ const SubscriptionForm = ({submitForm}: any) => {
                     Contact US
                 </T.Text0>
                 <T.Title2 marginBottom={18}>
-                    We are here for you <br/> Expect the vist for our expert soon
+                    We are here for you <br/> 
+                    {/* Expect the vist for our expert soon */}
                 </T.Title2>
                 <img
                         className="img"

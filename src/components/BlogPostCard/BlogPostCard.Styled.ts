@@ -30,20 +30,21 @@ export const StyledBlogPostCard = styled.div<Props>`
         display: flex;
         flex-direction: column;
         flex-grow: 1;
-        gap: 16px;
-        padding: 16px;
+        // gap: 16px;
+        // padding: 16px;
         border-radius: 0 0 6px 6px;
     }
 
     .text {
         display: flex;
         flex-grow: 1;
+        // overflow: hidden;
     }
 
     .text > * {
-        // overflow: hidden;
-        // text-overflow: ellipsis;
-        // display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         // margin-bottom: auto;
@@ -67,7 +68,7 @@ export const StyledBlogPostCard = styled.div<Props>`
                 .content {
                     .title,
                     .footer .read-link {
-                        text-decoration-line: underline;
+                        // text-decoration-line: underline;
                     }
                 }
             }
@@ -85,8 +86,8 @@ export const StyledBlogPostCard = styled.div<Props>`
         }
 
         .content {
-            padding: 16px 0;
-            gap: 24px;
+            // padding: 16px 0;
+            // gap: 24px;
         }
 
         .text > * {
@@ -100,9 +101,10 @@ export const H2 = styled.h2<TextProps>`
     font-size: 20px;
     font-weight: 700;
     line-height: 26px;
+    margin: unset;
 
     @media (min-width: 1180px) {
-        font-size: 24px;
+        // font-size: 24px;
         font-weight: 700;
         line-height: 32px;
     }

@@ -36,7 +36,6 @@ const BlogPostCard = ({
                     </div>
                     <div className="text">
                         <S.Text2>{text}</S.Text2>
-                        
                     </div>
                     {/* <div className="footer">
                         <S.Text2 color={'#F2BE22'} weight={700}>

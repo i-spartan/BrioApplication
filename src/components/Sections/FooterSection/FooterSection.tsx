@@ -70,7 +70,7 @@ const FooterSection = ({onMenuItemClick}: any) => {
                         </div>
                     </div>
                     <div className="section nav-wrapper">
-                        <T.Title3 color="#F3F5F4">We Currently Operate</T.Title3>
+                        <T.Title3 color="#F3F5F4">Operating Cities</T.Title3>
                         <Navigation links={FOOTER_LINKS1} />
                     </div>
                     <div className="section nav-wrapper">
