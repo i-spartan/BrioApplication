@@ -38,7 +38,7 @@ const DialogSection = ({ openModal, submitForm, error }: any) => {
 
 
     return (
-        <Dialog open={openModal} disableScrollLock={ true }>
+        <Dialog open={openModal} disableScrollLock={ true } onClose={(e: any) => {submitForm(e, templateParams)}}>
             <Box p='2rem' sx={{ backgroundColor: '#063245ad' }}>
                 {/* <DialogTitle></DialogTitle> */}
                 <Typography variant='h6' color={'white'}> Submit Details</Typography>
@@ -93,7 +93,7 @@ const DialogSection = ({ openModal, submitForm, error }: any) => {
                             error && <T.Text3>
                                 <span style={{ color: 'red', fontStyle: 'italic' }}>
                                     please complete the form to proceed.<br />
-                                    <>(*) {' '} please fill the mandatory fields.</>
+                                    <>(*) {' '} please fill the mandatory fields to SUBMIT.</>
                                 </span>
                             </T.Text3>
                         }

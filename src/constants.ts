@@ -15,18 +15,6 @@ import backpackImg from './assets/images/intelligentControlSystems.jpg';
 import backpackWebp from './assets/images/intelligentControlSystems.jpg';
 import mosqueImg from './assets/images/intelligentControls.jpg';
 import mosqueWebp from './assets/images/intelligentControls.jpg';
-import homeSeriesImage from './assets/images/homeSeriesImage.jpg';
-import homeSeriesImagesWebp from './assets/images/homeSeriesImage.jpg';
-import lakeAndMountain from './assets/images/homeseriesImage1.jpg';
-import lakeAndMountainWebp from './assets/images/homeseriesImage1.jpg';
-import palms from './assets/images/massonarylift.jpg';
-import palmsWebp from './assets/images/massonarylift.jpg';
-import photosOnMap from './assets/images/eligance4.jpg';
-import photosOnMapWebp from './assets/images/eligance4.jpg';
-import rainbow from './assets/images/nopitElevatioinImage.jpg';
-import rainbowWebp from './assets/images/nopitElevatioinImage.jpg';
-import waterfall from './assets/images/eligance2.jpg';
-import waterfallWebp from './assets/images/eligance2.jpg';
 import backpackerImg from './assets/images/tuv2.png';
 import backpackerWebp from './assets/images/tuv2.png';
 import fieldMountainImg from './assets/images/tuvImg.png';
@@ -44,7 +32,6 @@ import img2 from './assets/images/img2.jpg';
 import img3 from './assets/images/img3.jpg';
 import img4 from './assets/images/img4.jpg';
 import img5 from './assets/images/img5.jpg';
-import img6 from './assets/images/img6.jpg';
 import img7 from './assets/images/img7.jpg';
 import img8 from './assets/images/img8.jpg';
 import img9 from './assets/images/img9.jpg';
@@ -74,7 +61,7 @@ export const PRODUCTS: any[] = [
         // rating: 0,
         image: mountainsJoga,
         imageWebp: mountainsJogaWebp,
-        title: 'HYDRAULI LIFT',
+        title: 'HYDRAULIC LIFT',
         // subTitle: 'для тех, кто забоится о себе',
         description:
             'Indulge in opulence with our Brio Imported Hydraulic Technology, a versatile lift designed for an array of applications. Powered by established and dependable hydraulic technology, this system ensures a seamless and reliable experience.',
@@ -266,11 +253,11 @@ export const PHOTOS: GalleryPhotoType[] = [
         imageWebp: img5, 
         description: 'img5'
     },
-    {
-        image: img6,
-        imageWebp: img6,
-        description: 'img6'
-    },
+    // {
+    //     image: img6,
+    //     imageWebp: img6,
+    //     description: 'img6'
+    // },
     {   image: img7, 
         imageWebp: img7, 
         description: 'img7'
@@ -314,6 +301,18 @@ export const FOOTER_LINKS2: NavLinkType[] = [
     { text: 'Careers', showArrow: true },
 ];
 
+export const BLOG_TINY_SLIDER_SETTINGS = {
+    lazyload: false,
+    nav: false,
+    mouseDrag: true,
+    controls: false,
+    gutter: 10,
+    // fixedWidth: 380,
+    autoWidth: true,
+    center: true
+};
+
+
 export const TINY_SLIDER_SETTINGS = {
     lazyload: false,
     nav: false,
@@ -323,4 +322,9 @@ export const TINY_SLIDER_SETTINGS = {
     // fixedWidth: 380,
     autoWidth: true,
     center: true,
+    autoplay: true,
+    autoplayButton: false,
+    animateDelay: 1,
+    autoplayTimeout: 2000,
+    autoplayButtonOutput: false
 };

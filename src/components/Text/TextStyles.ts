@@ -104,7 +104,7 @@ export const Text1 = styled(Text)<TextProps>`
 
 export const Text0 = styled(Text)<TextProps>`
     font-size: 30px;
-    line-height: 20px;
+    line-height: 25px;
     font-family: Lobster;
     letter-spacing: 2px;
 `;

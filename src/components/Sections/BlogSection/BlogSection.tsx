@@ -20,7 +20,7 @@ const BlogSection = ({ posts, tinySliderSettings, knowMore }: Props) => {
             <Box px={'15px'}>
                 <S.BlogSectionStyled>
                     <SectionHeader
-                        description="Our Elevators Equiped With"
+                        description="Our Elevators Equipped With"
                         title="Most Advanced and Safety Features"
                     />
                     <div className="posts">

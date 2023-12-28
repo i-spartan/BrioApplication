@@ -24,7 +24,7 @@ const GallerySection = ({ photos, tinySliderSettings, knowMore, submitForm, down
         <Box px={'15px'}>
             <S.GallerySectionStyled> 
                 <SectionHeader
-                    description="Eligance and Style"
+                    description="Bespoke Cabin Designs"
                     title="Create Your Own Customized Car"
                 />
                 <div className="gallery">
@@ -47,7 +47,7 @@ const GallerySection = ({ photos, tinySliderSettings, knowMore, submitForm, down
                 </div>
                 <div className="button-outer" onClick={downloadBroucher}>
                     <Button
-                        title="Download Broucher"
+                        title="Download Brochure"
                         color="#FDFDFD"
                         backgroundColor="#063245"
                     />

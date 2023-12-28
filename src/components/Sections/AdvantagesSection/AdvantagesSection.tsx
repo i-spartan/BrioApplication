@@ -90,7 +90,7 @@ const AdvantagesSection = ({ images, downloadBroucher }: Props) => {
                         </div>
                         <div className="btn-wrapper" onClick={downloadBroucher}>
                             <Button
-                                title="Download Broucher"
+                                title="Download Brochure"
                                 color="#FDFDFD"
                                 backgroundColor="#063245"
                             />

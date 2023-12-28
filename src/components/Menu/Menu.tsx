@@ -15,12 +15,12 @@ const Menu = ({onMenuItemClick}: any) => {
                 color="#FDFDFD"
                 backgroundColor="#063245"
             /> */}
-            <SL.StyledButton backgroundColor={'#063245'} large={false}>
-            <T.Text1 color={"#e5b011"} weight={700}>
-                {<><PhoneIcon sx={{fontSize: 'large', paddingTop: '0.1rem'}}/>{ ' ' } +91-9398113939</>}
+            {/* <SL.StyledButton backgroundColor={'#063245'} large={false}> */}
+            {/* <T.Text1 color={"#e5b011"} weight={700}> */}
+                {/* {<><PhoneIcon sx={{fontSize: 'large', paddingTop: '0.1rem'}}/>{ ' ' } +91-9398113939</>} */}
                 {/* <img src={'../../assets/images/cellRing.gif'} alt="loading..." /> */}
-            </T.Text1>
-        </SL.StyledButton>
+            {/* </T.Text1> */}
+        {/* </SL.StyledButton> */}
         </S.StyledMenu>
     );
 };

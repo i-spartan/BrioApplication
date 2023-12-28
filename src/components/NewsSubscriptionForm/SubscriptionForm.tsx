@@ -36,7 +36,7 @@ const SubscriptionForm = ({submitForm}: any) => {
         <S.StyledSubscriptionForm>
             <div className="titles">
                 <T.Text0 color="#e5b011" marginBottom={8}>
-                    Contact US
+                    Contact Us
                 </T.Text0>
                 <T.Title2 marginBottom={18}>
                     We are here for you <br/> 
@@ -66,7 +66,7 @@ const SubscriptionForm = ({submitForm}: any) => {
                     <Input
                             // label="Enter Phone Number"
                             id='phoneNumber'
-                            placeholder="phone umber *"
+                            placeholder="phone number *"
                             marginBottom={16}
                             value={phoneNumber}
                             onChange={onChange}
@@ -76,7 +76,7 @@ const SubscriptionForm = ({submitForm}: any) => {
                      <Input
                             // label="Enter Email Id"
                             id='emailId'
-                            placeholder="emailId *"
+                            placeholder="email *"
                             marginBottom={16}
                             value={email}
                             onChange={onChange}

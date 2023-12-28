@@ -33,22 +33,42 @@ const NavLink = ({ text, showArrow = true, showLocation, onMenuItemClick }: NavL
             </S.StyledNavLink>
         );
     } else {
-        return (
-            <S.StyledNavLink
-                to="./"
-                // onMouseEnter={mouseEnterHandler}
-                // onMouseLeave={mouseLeaveHandler}
-                color={color}
-                fontSize={14}
-                weight={400}
-                lineHeight={18}
-                // underline={hovered}
-                onClick={() => {onMenuItemClick && onMenuItemClick(text)}}
-            >
-                {showArrow ? <RightArrowIcon color={color} /> : null}
-                {text}
-            </S.StyledNavLink>
-        );
+        if(showArrow && showArrow == true) {
+            return (
+                <S.StyledNavLink
+                    to="./"
+                    // onMouseEnter={mouseEnterHandler}
+                    // onMouseLeave={mouseLeaveHandler}
+                    color={color}
+                    fontSize={14}
+                    weight={400}
+                    lineHeight={18}
+                    // underline={hovered}
+                    onClick={() => {onMenuItemClick && onMenuItemClick(text)}}
+                >
+                    {showArrow ? <RightArrowIcon color={color} /> : null}
+                    {text}
+                </S.StyledNavLink>
+            );
+        } else {
+            return (
+                <S.StyledNavLink
+                    to="./"
+                    // onMouseEnter={mouseEnterHandler}
+                    // onMouseLeave={mouseLeaveHandler}
+                    color={color}
+                    fontSize={16}
+                    weight={400}
+                    lineHeight={18}
+                    // underline={hovered}
+                    onClick={() => {onMenuItemClick && onMenuItemClick(text)}}
+                >
+                    {showArrow ? <RightArrowIcon color={color} /> : null}
+                    {text}
+                </S.StyledNavLink>
+            );
+        }
+        
     }
     
 };

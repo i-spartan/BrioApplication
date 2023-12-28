@@ -7,27 +7,38 @@ import HikeSearchForm from '../HikeSearchForm/HikeSearchForm';
 import { Button } from '../Button/Button';
 import { Typography } from '@mui/material';
 
-const Header = ({submitForm, openModalFunc, onMenuItemClick}: any) => {
+const Header = ({ submitForm, openModalFunc, onMenuItemClick }: any) => {
+
+    const style = {
+        width: "20%",
+         height: '152%',
+        // Adding media query..
+        '@media (max-width: 1100px)': {
+            height: '100%',
+        },
+      };
+
     return (
         <S.StyledHeader>
             <Container>
                 <header className="menu-wrapper">
                     {/* <LogoIcon /> */}
                     <img
-                  src={LogoIcon}
-                  alt="BigCo Inc. logo"
-                  style={{ width: "25%", height: '180%' }}
-                />
-                    <Menu onMenuItemClick={onMenuItemClick}/>
-                    <BurgerMenu onMenuItemClick={onMenuItemClick}/>
+                        className='img'
+                        src={LogoIcon}
+                        alt="Brio Elevators logo"
+                        // style={{ width: "20%", height: '152%' }}
+                    />
+                    <Menu onMenuItemClick={onMenuItemClick} />
+                    <BurgerMenu onMenuItemClick={onMenuItemClick} />
                 </header>
                 <S.H1>
-                <Typography sx={{ fontFamily: 'Fredericka the Great', textAlign: 'center', fontSize: { sm: '2rem', md: '3rem', lg: '4rem' }}}>
-                  BRIO, ELEVATES YOUR EXPECTATIONS
-                </Typography>
+                    <Typography sx={{ fontFamily: 'Fredericka the Great', textAlign: 'center', fontSize: { sm: '2rem', md: '3rem', lg: '3rem' } }}>
+                        BRIO, ELEVATES YOUR EXPECTATIONS
+                    </Typography>
                 </S.H1>
-                <HikeSearchForm className="hike-search-form" submitForm={submitForm}/>
-                <div className="hike-search-btn" style={{justifyContent: 'center'}} onClick={openModalFunc}>
+                <HikeSearchForm className="hike-search-form" submitForm={submitForm} />
+                <div className="hike-search-btn" style={{ justifyContent: 'center' }} onClick={openModalFunc}>
                     <Button title="Get Free Site Visit" color="#063245" large />
                 </div>
             </Container>

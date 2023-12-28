@@ -9,6 +9,7 @@ import {
     PHOTOS,
     ELIGANCEANDSTYLE,
     TINY_SLIDER_SETTINGS,
+    BLOG_TINY_SLIDER_SETTINGS
 } from '../constants';
 import GallerySection from '../components/Sections/GallerySection/GallerySection';
 import FooterSection from '../components/Sections/FooterSection/FooterSection';
@@ -25,7 +26,7 @@ import CallIcon from '@mui/icons-material/Call';
 
 const HomePage = () => {
 
-    const [openModal, setOpenModal] = useState(false);
+    const [openModal, setOpenModal] = useState(true);
     const [error, setError] = useState(false);
     const [open, setOpen] = useState(false);
 
@@ -110,7 +111,7 @@ const HomePage = () => {
             />
             <BlogSection
                 posts={ELIGANCEANDSTYLE}
-                tinySliderSettings={TINY_SLIDER_SETTINGS}
+                tinySliderSettings={BLOG_TINY_SLIDER_SETTINGS}
                 knowMore={openModalFunc}
             />
             <GallerySection

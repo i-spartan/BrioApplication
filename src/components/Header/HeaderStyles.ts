@@ -29,7 +29,17 @@ export const StyledHeader = styled.section`
         display: flex;
     }
 
-    @media (min-width: 1180px) {
+    .img {
+        width: 18%;
+        height: 170%;
+
+            @media (max-width: 600px) {
+        height: 125%;
+        width: 30%;
+    }
+    }
+
+    @media (min-width: 1180px) and (min-height: 650px) {
         padding: 16px 0 82px;
 
         .hike-search-form {
@@ -51,11 +61,26 @@ export const H1 = styled.h1<TextProps>`
     line-height: 42px;
     margin-top: 320px;
 
-    @media (min-width: 1180px) {
+    @media (min-width: 1180px) and (max-height: 600px) {
         font-size: 60px;
         font-weight: 700;
         line-height: 75px;
         letter-spacing: 1px;
         margin-top: 320px;
     }
+
+    @media (max-height: 650px) {
+        margin-top: 200px;
+    }
 `;
+
+// export const img = styled.img`
+//     @media (min-width: 1180px) and (max-height: 600px) {
+//         width: 20px;
+//          height: 152px;
+//     }
+
+//     @media (max-height: 650px) {
+//         height: 10%;
+//     }
+// `;
