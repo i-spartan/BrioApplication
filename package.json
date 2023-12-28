@@ -81,8 +81,5 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "resolutions": {
-    "graceful-fs": "^4.2.11"
   }
 }
