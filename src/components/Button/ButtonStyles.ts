@@ -21,7 +21,7 @@ export const StyledButton = styled.button<Props>`
     transition: background 250ms linear;
 
     &:hover {
-        background: #f2be22;
+        background: #e5b011;
         cursor: pointer;
     }
 `;

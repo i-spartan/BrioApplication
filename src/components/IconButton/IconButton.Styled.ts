@@ -12,6 +12,6 @@ export const StyledIconButton = styled.button<Props>`
 
     :hover {
         cursor: pointer;
-        color: ${({ hoverColor }) => hoverColor || '#F2BE22'};
+        color: ${({ hoverColor }) => hoverColor || '#e5b011'};
     }
 `;

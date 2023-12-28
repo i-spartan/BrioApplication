@@ -44,7 +44,7 @@ export const StyledBlogPostCard = styled.div<Props>`
     .text > * {
         overflow: hidden;
         text-overflow: ellipsis;
-        display: -webkit-box;
+        // display: -webkit-box;
         -webkit-line-clamp: 3;
         -webkit-box-orient: vertical;
         // margin-bottom: auto;
@@ -115,3 +115,4 @@ export const Text2 = styled.p<TextProps>`
     font-size: 14px;
     line-height: 20px;
 `;
+

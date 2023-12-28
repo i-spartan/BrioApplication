@@ -13,7 +13,7 @@ export type NavLinkType = {
 const NavLink = ({ text, showArrow = true, showLocation, onMenuItemClick }: NavLinkType) => {
     const [hovered, setHovered] = useState<boolean>(false);
 
-    const color = hovered ? '#F2BE22' : '#FDFDFD';
+    const color = hovered ? '#e5b011' : '#FDFDFD';
 
     if(showLocation && showLocation == true){
         return (

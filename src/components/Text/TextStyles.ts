@@ -73,8 +73,8 @@ export const StyledLink = styled(Link)<TextProps>`
     `};
 
     &:hover {
-        color: ${({ hoverColor }) => hoverColor || '#F2BE22'};
-        text-decoration-color: ${({ hoverColor }) => hoverColor || '#F2BE22'};
+        color: ${({ hoverColor }) => hoverColor || '#e5b011'};
+        text-decoration-color: ${({ hoverColor }) => hoverColor || '#e5b011'};
     }
 `;
 
@@ -103,8 +103,10 @@ export const Text1 = styled(Text)<TextProps>`
 `;
 
 export const Text0 = styled(Text)<TextProps>`
-    font-size: 24px;
+    font-size: 30px;
     line-height: 20px;
+    font-family: Lobster;
+    letter-spacing: 2px;
 `;
 
 export const Text2 = styled(Text)<TextProps>`

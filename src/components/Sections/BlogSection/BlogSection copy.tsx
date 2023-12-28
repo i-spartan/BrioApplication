@@ -17,8 +17,8 @@ const BlogSection = ({ posts, tinySliderSettings }: Props) => {
         <ColoredSection backgroundColor="#F3F5F4">
             <S.BlogSectionStyled>
                 <SectionHeader
-                    description="Eligance and Style"
-                    title="Eligance and Style"
+                    description="Elegance and Style"
+                    title="Elegance and Style"
                 />
                 <div className="posts">
                     {posts.map(({ ...props }, index) => (

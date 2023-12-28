@@ -65,7 +65,7 @@ const HikeCard = memo(
                         <div className="description-wrapper">
                             <T.Text1
                                 className="description"
-                                color="#f2be22"
+                                color="#e5b011"
                                 lineHeight={24}
                             >
                                 {description}

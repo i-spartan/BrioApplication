@@ -35,7 +35,7 @@ const SubscriptionForm = ({submitForm}: any) => {
     return (
         <S.StyledSubscriptionForm>
             <div className="titles">
-                <T.Text0 color="#f2be22" marginBottom={8}>
+                <T.Text0 color="#e5b011" marginBottom={8}>
                     Contact US
                 </T.Text0>
                 <T.Title2 marginBottom={18}>

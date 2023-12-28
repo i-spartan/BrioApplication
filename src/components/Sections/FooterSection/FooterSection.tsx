@@ -34,7 +34,7 @@ const FooterSection = ({onMenuItemClick}: any) => {
                             />
                         </T.Title3>
                         <T.Text2 color="#fff" marginBottom={30}>
-                        <PlaceIcon sx={{color: 'rgb(182, 125, 2)'}}/> 6st Floor, Plot Number 17, <br />
+                        <PlaceIcon sx={{color: 'rgb(182, 125, 2)'}}/> 6th Floor, Plot Number 17, <br />
                             Road Number 7, Near Jubilee Hills Metro Station<br />
                             Rd no. 5, Hyderabad, Telangana, 500033
                         </T.Text2>

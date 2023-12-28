@@ -14,12 +14,11 @@ import GallerySection from '../components/Sections/GallerySection/GallerySection
 import FooterSection from '../components/Sections/FooterSection/FooterSection';
 import CompanyInfoSection from '../components/Sections/CompanyInfoSection/CompanyInfoSection';
 import DialogSection from '../components/Dialog/Dialog';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Fab from "@mui/material/Fab";
 import UpIcon from "@mui/icons-material/KeyboardArrowUp";
 import emailjs from '@emailjs/browser';
 import Snackbar from '@mui/material/Snackbar';
-import React from 'react';
 import MuiAlert, { AlertProps } from '@mui/material/Alert';
 import { Typography } from '@mui/material';
 import CallIcon from '@mui/icons-material/Call';
@@ -139,7 +138,7 @@ const HomePage = () => {
                     position: "fixed",
                     bottom: 40,
                     right: 40,
-                    backgroundColor: '#f2be22',
+                    backgroundColor: '#e5b011',
                     height: "3.3rem",
                     width: "2.6rem",
                     border: '1px solid white'

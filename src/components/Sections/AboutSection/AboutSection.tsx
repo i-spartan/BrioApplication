@@ -3,7 +3,7 @@ import * as T from '../../Text/TextStyles';
 import ColoredSection from '../../Section/ColoredSection';
 import { Button } from '../../Button/Button';
 import houseVideoPreview from '../../../assets/images/house-video-preview.jpg';
-import houseVideoPreviewWebp from '../../../assets/images/house-video-preview.webp';
+import houseVideoPreviewWebp from '../../../assets/images/house-video-preview.jpg';
 import SectionHeader from '../../SectionHeader/SectionHeader';
 import Image from '../../Image/Image';
 import ReactPlayer from 'react-player'

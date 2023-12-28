@@ -23,6 +23,7 @@
     "air-datepicker": "^3.4.0",
     "email-js": "^2.0.2",
     "file-saver": "^2.0.5",
+    "gulp": "^4.0.2",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -80,5 +81,8 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "resolutions": {
+    "graceful-fs": "^4.2.11"
   }
 }

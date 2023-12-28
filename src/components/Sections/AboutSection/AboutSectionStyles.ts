@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import mountainVideoPreview from '../../../assets/images/mountain_video_preview.jpg';
-import mountainVideoPreviewWebp from '../../../assets/images/mountain_video_preview.webp';
+import mountainVideoPreviewWebp from '../../../assets/images/mountain_video_preview.jpg';
 // import mountainVideoPreview from '../../../assets/images/Stamp.png';
 // import mountainVideoPreviewWebp from '../../../assets/images/Stamp.png';
 

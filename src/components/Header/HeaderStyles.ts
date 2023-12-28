@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import mountainsJpg from '../../assets/images/mountains.jpg';
-import mountainsWebp from '../../assets/images/mountains.webp';
+import mountainsWebp from '../../assets/images/mountains.jpg';
 import { commonTextStyles, TextProps } from '../Text/TextStyles';
 
 export const StyledHeader = styled.section`

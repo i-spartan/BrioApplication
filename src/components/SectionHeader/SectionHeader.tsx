@@ -10,7 +10,7 @@ type Props = {
 const SectionHeader = ({ description, title, marginBottom }: Props) => {
     return (
         <S.SectionHeaderStyled marginBottom={marginBottom}>
-            <T.Text0 color="#f2be22">{description}</T.Text0>
+            <T.Text0 color="#e5b011">{description}</T.Text0>
             <T.Title2>{title}</T.Title2>
         </S.SectionHeaderStyled>
     );

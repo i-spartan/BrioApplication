@@ -27,8 +27,8 @@ import rainbow from './assets/images/nopitElevatioinImage.jpg';
 import rainbowWebp from './assets/images/nopitElevatioinImage.jpg';
 import waterfall from './assets/images/eligance2.jpg';
 import waterfallWebp from './assets/images/eligance2.jpg';
-import backpackerImg from './assets/images/tuv2.jpg';
-import backpackerWebp from './assets/images/tuv2.jpg';
+import backpackerImg from './assets/images/tuv2.png';
+import backpackerWebp from './assets/images/tuv2.png';
 import fieldMountainImg from './assets/images/tuvImg.png';
 import fieldMountainWebp from './assets/images/tuvImg.png';
 import fireImg from './assets/images/5yersImg.png';
@@ -153,8 +153,8 @@ export const ELIGANCEANDSTYLE: any[] = [
         image: italyImg,
         imageWebp: italyWebp,
         // alt: 'Вид Италии',
-        title: 'Expertise In GearLess',
-        text: 'Through our expertise in engineering. We have developed a high-quality gearless home elevator. The result is a high-performance addition to your home that you can hardly hear, even when you put your ear elevator.',
+        title: 'Expertise in Gearless',
+        text: 'Through our expertise in engineering. We have developed a high-quality gearless home elevator. The result is a high-performance addition to your home that you can hardly hear, even when you put your ear near elevator.',
         // date: '01/04/2023',
     },
     // {
@@ -169,7 +169,7 @@ export const ELIGANCEANDSTYLE: any[] = [
         image: flightImg,
         imageWebp: flightWebp,
         // alt: 'Полёт самолёта в облаках',
-        title: 'Magnetic controls with advanced landing (PMSM)',
+        title: 'Magnetic Controls with Advanced Landing (PMSM)',
         text: 'Enhancing elevator safety, our Magnetic Controls, inspired by Japanese train technology, revolutionize door systems. Unlike conventional key switches prone to wear, our patented electronic components ensure reliability, preventing abrupt closures and potential accidents. With a commitment to innovation, our cutting-edge solution elevates user safety by minimizing wear and tear and ensuring door system durability.',
         // date: '01/04/2023',
     },
@@ -185,7 +185,7 @@ export const ELIGANCEANDSTYLE: any[] = [
         image: backpackImg,
         imageWebp: backpackWebp,
         // alt: 'Путешественник',
-        title: 'Enhanced fault detection and reporting system',
+        title: 'Enhanced Fault Detection and Reporting System',
         text: 'Addressing elevator breakdown concerns, our proactive monitoring system revolutionizes safety, especially in private homes. Unlike traditional methods, our patented Error Notification System, inspired by German Super Cars, alerts users before issues arise, enabling timely intervention and minimizing downtime. With advanced warnings and immediate action, it ensures the well-being of loved ones and prevents potential malfunctions, elevating the overall safety of elevator systems.',
         // date: '02/05/2023',
     },
@@ -201,7 +201,7 @@ export const ELIGANCEANDSTYLE: any[] = [
         image: mosqueImg,
         imageWebp: mosqueWebp,
         // alt: 'Вид на мечеть',
-        title: 'Multi layred safety',
+        title: 'Multi Layered Safety',
         text: 'Highlighting elevator operation risks, our multi-layered safety approach for private homes includes primary and secondary batteries, a mechanical button for descent, a manual emergency key on each floor, and a trap door for top-of-cabin accessibility. These layers ensure reliable performance during power disruptions, offer alternative descent options, and facilitate safe passenger rescue, demonstrating our commitment to elevated safety measures in home elevators.',
         // date: '03/06/2023',
     },
@@ -282,7 +282,7 @@ export const PHOTOS: GalleryPhotoType[] = [
     {   image: img9, 
         imageWebp: img9, 
         description: 'img9'
-    },
+    }
 ];
 
 export const MENU_LINKS: NavLinkType[] = [

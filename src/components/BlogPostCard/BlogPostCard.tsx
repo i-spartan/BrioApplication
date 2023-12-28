@@ -38,7 +38,7 @@ const BlogPostCard = ({
                         <S.Text2>{text}</S.Text2>
                     </div>
                     {/* <div className="footer">
-                        <S.Text2 color={'#F2BE22'} weight={700}>
+                        <S.Text2 color={'#e5b011'} weight={700}>
                             {date}
                         </S.Text2>
                         <T.StyledLink
