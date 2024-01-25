@@ -14,7 +14,7 @@ export const StyledTopHeader = styled.section`
      padding-bottom: 2px;
 }
 
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
         .top-header {
             display: none;
         }
