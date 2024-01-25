@@ -17,10 +17,10 @@ export const StyledHikeCard = styled.div`
     }
 
     .content {
-        width: 100%;
+        // width: 100%;
         padding: 20px 20px 23px 20px;
         border-radius: 0 0 24px 24px;
-        background: rgba(255, 255, 255, 0.2);
+        background: rgba(245, 240, 241, 0.56);
         backdrop-filter: blur(3px);
 
         display: flex;
@@ -47,11 +47,12 @@ export const StyledHikeCard = styled.div`
     .description {
         // overflow: hidden;
         text-overflow: ellipsis;
-        display: -webkit-box;
+        // display: -webkit-box;
         -webkit-line-clamp: 9;
         -webkit-box-orient: vertical;
-        margin-bottom: auto;
-        color: #063245;
+        margin-bottom: 25px;
+        color: #022739;
+        height: 50%;
     }
 
     .button-wrapper {
@@ -113,7 +114,7 @@ export const StyledHikeCard = styled.div`
         }
 
         .content {
-            top: 400px;
+            top: 430px;
         }
 
         .subtitle {
@@ -131,6 +132,7 @@ export const CardTitle = styled.h3<TextProps>`
     font-size: 18px;
     font-weight: 700;
     line-height: 21.6px;
+    margin: unset;
 
     @media (min-width: 1180px) {
         font-size: 21px;

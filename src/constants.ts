@@ -1,46 +1,46 @@
 import { Hike } from './components/HikeCard/HikeCard';
-import lakeImage from './assets/images/gearLessBelt.jpg';
-import lakeWebp from './assets/images/gearLessBelt.jpg';
-import mountainsNight from './assets/images/gearLessRope.jpg';
-import mountainsNightWebp from './assets/images/gearLessRope.jpg';
-import mountainsJoga from './assets/images/hydraulic.jpg';
+import gearLessBeltElevator from './assets/images/gearLessBelt.jpg';
+import gearLessBeltElevatorWebp from './assets/images/gearLessBelt.jpg';
+import gearLessRopeElevator from './assets/images/gearLessRope.jpg';
+import gearLessRopeElevatorWebp from './assets/images/gearLessRope.jpg';
+import hydraulicLift from './assets/images/hydraulic.jpg';
 import mountainsJogaWebp from './assets/images/hydraulic.jpg';
 import mobilitySeries from './assets/images/mobilitySeries.jpg';
 import mobilitySeriesWebp from './assets/images/mobilitySeries.jpg';
-import italyImg from './assets/images/gearless.jpg';
-import italyWebp from './assets/images/gearless.jpg';
-import flightImg from './assets/images/energySaving.jpg';
-import flightWebp from './assets/images/energySaving.jpg';
-import backpackImg from './assets/images/intelligentControlSystems.jpg';
-import backpackWebp from './assets/images/intelligentControlSystems.jpg';
-import mosqueImg from './assets/images/intelligentControls.jpg';
-import mosqueWebp from './assets/images/intelligentControls.jpg';
-import backpackerImg from './assets/images/tuv2.png';
-import backpackerWebp from './assets/images/tuv2.png';
-import fieldMountainImg from './assets/images/tuvImg.png';
-import fieldMountainWebp from './assets/images/tuvImg.png';
-import fireImg from './assets/images/5yersImg.png';
-import fireWebp from './assets/images/5yersImg.png';
-import yellowCoatImg from './assets/images/tuv22.jpg';
-import yellowCoatWebp from './assets/images/tuv22.jpg';
+import gearLessLift from './assets/images/gearless.jpg';
+// import italyWebp from './assets/images/gearless.jpg';
+import energySavingFeature from './assets/images/energySaving.jpg';
+// import flightWebp from './assets/images/energySaving.jpg';
+import intelligentControlSystems from './assets/images/intelligentControlSystems.jpg';
+// import backpackWebp from './assets/images/intelligentControlSystems.jpg';
+import intelligentControls from './assets/images/intelligentControls.jpg';
+// import mosqueWebp from './assets/images/intelligentControls.jpg';
+import tuvCertified from './assets/images/tuv2.png';
+// import backpackerWebp from './assets/images/tuv2.png';
+import certifiedByTuv from './assets/images/tuvImg.png';
+// import fieldMountainWebp from './assets/images/tuvImg.png';
+import yearsWarrenty from './assets/images/5yersImg.png';
+// import fireWebp from './assets/images/5yersImg.png';
+import tuv from './assets/images/tuv22.jpg';
+// import yellowCoatWebp from './assets/images/tuv22.jpg';
 import { BlogPostCardType } from './components/BlogPostCard/BlogPostCard';
 import { GalleryPhotoType } from './components/PhotoGallery/SliderPhotoGallery';
 import { NavLinkType } from './components/NavLink/NavLink';
 import { ImageType } from './components/Image/Image';
-import img1 from './assets/images/img1.jpg';
-import img2 from './assets/images/img2.jpg';
-import img3 from './assets/images/img3.jpg';
-import img4 from './assets/images/img4.jpg';
-import img5 from './assets/images/img5.jpg';
-import img7 from './assets/images/img7.jpg';
-import img8 from './assets/images/img8.jpg';
-import img9 from './assets/images/img9.jpg';
+import custimised_elevator_1 from './assets/images/img1.jpg';
+import custimised_elevator_2 from './assets/images/img2.jpg';
+import custimised_elevator_3 from './assets/images/img3.jpg';
+import custimised_elevator_4 from './assets/images/img4.jpg';
+import custimised_elevator_5 from './assets/images/img5.jpg';
+import custimised_elevator_6 from './assets/images/img7.jpg';
+import custimised_elevator_7 from './assets/images/img8.jpg';
+import custimised_elevator_8 from './assets/images/img9.jpg';
 
 export const PRODUCTS: any[] = [
     {
         // rating: 0,
-        image: lakeImage,
-        imageWebp: lakeWebp,
+        image: gearLessBeltElevator,
+        imageWebp: gearLessBeltElevator,
         title: 'GEARLESS BELT',
         // subTitle: 'романтическое приключение',
         description:
@@ -49,8 +49,8 @@ export const PRODUCTS: any[] = [
     },
     {
         // rating: 0,
-        image: mountainsNight,
-        imageWebp: mountainsNightWebp,
+        image: gearLessRopeElevator,
+        imageWebp: gearLessRopeElevator,
         title: 'GEARLESS ROPE',
         // subTitle: 'в компании друзей',
         description:
@@ -59,8 +59,8 @@ export const PRODUCTS: any[] = [
     },
     {
         // rating: 0,
-        image: mountainsJoga,
-        imageWebp: mountainsJogaWebp,
+        image: hydraulicLift,
+        imageWebp: hydraulicLift,
         title: 'HYDRAULIC LIFT',
         // subTitle: 'для тех, кто забоится о себе',
         description:
@@ -82,8 +82,8 @@ export const PRODUCTS: any[] = [
 export const HIKES: Hike[] = [
     {
         rating: 4.8,
-        image: lakeImage,
-        imageWebp: lakeWebp,
+        image: gearLessBeltElevator,
+        imageWebp: gearLessBeltElevator,
         title: 'Озеро возле гор',
         subTitle: 'романтическое приключение',
         description:
@@ -92,8 +92,8 @@ export const HIKES: Hike[] = [
     },
     {
         rating: 4.9,
-        image: mountainsNight,
-        imageWebp: mountainsNightWebp,
+        image: gearLessRopeElevator,
+        imageWebp: gearLessRopeElevator,
         title: 'Ночь в горах',
         subTitle: 'в компании друзей',
         description:
@@ -102,8 +102,8 @@ export const HIKES: Hike[] = [
     },
     {
         rating: 4.9,
-        image: mountainsJoga,
-        imageWebp: mountainsJogaWebp,
+        image: hydraulicLift,
+        imageWebp: hydraulicLift,
         title: 'Йога в горах',
         subTitle: 'для тех, кто забоится о себе',
         description:
@@ -114,32 +114,32 @@ export const HIKES: Hike[] = [
 
 export const ADVANTAGES_IMAGES: ImageType[] = [
     {
-        image: backpackerImg,
-        imageWebp: backpackerWebp,
-        alt: 'backpackerImg',
+        image: tuvCertified,
+        imageWebp: tuvCertified,
+        alt: '100% imported from germany',
     },
     {
-        image: fieldMountainImg,
-        imageWebp: fieldMountainWebp,
-        alt: 'fieldMountainImg',
+        image: certifiedByTuv,
+        imageWebp: certifiedByTuv,
+        alt: '100% imported from italy',
     },
     {
-        image: fireImg,
-        imageWebp: fireWebp,
-        alt: 'fireImg',
+        image: yearsWarrenty,
+        imageWebp: yearsWarrenty,
+        alt: '5 years warrenty',
     },
     {
-        image: yellowCoatImg,
-        imageWebp: yellowCoatWebp,
-        alt: 'yellowCoatImg',
+        image: tuv,
+        imageWebp: tuv,
+        alt: '100% certified',
     },
 ];
 
 export const ELIGANCEANDSTYLE: any[] = [
     {
-        image: italyImg,
-        imageWebp: italyWebp,
-        // alt: 'Вид Италии',
+        image: gearLessLift,
+        imageWebp: gearLessLift,
+        alt: 'Expertise in Gearless',
         title: 'Expertise in Gearless',
         text: 'Through our expertise in engineering. We have developed a high-quality gearless home elevator. The result is a high-performance addition to your home that you can hardly hear, even when you put your ear near elevator.',
         // date: '01/04/2023',
@@ -153,9 +153,9 @@ export const ELIGANCEANDSTYLE: any[] = [
     //     // date: '01/04/2023',
     // },
     {
-        image: flightImg,
-        imageWebp: flightWebp,
-        // alt: 'Полёт самолёта в облаках',
+        image: energySavingFeature,
+        imageWebp: energySavingFeature,
+        alt: 'Magnetic Controls with Advanced Landing (PMSM)',
         title: 'Magnetic Controls with Advanced Landing (PMSM)',
         text: 'Enhancing elevator safety, our Magnetic Controls, inspired by Japanese train technology, revolutionize door systems. Unlike conventional key switches prone to wear, our patented electronic components ensure reliability, preventing abrupt closures and potential accidents. With a commitment to innovation, our cutting-edge solution elevates user safety by minimizing wear and tear and ensuring door system durability.',
         // date: '01/04/2023',
@@ -169,9 +169,9 @@ export const ELIGANCEANDSTYLE: any[] = [
     //     // date: '02/05/2023',
     // },
     {
-        image: backpackImg,
-        imageWebp: backpackWebp,
-        // alt: 'Путешественник',
+        image: intelligentControlSystems,
+        imageWebp: intelligentControlSystems,
+        alt: 'Enhanced Fault Detection and Reporting System',
         title: 'Enhanced Fault Detection and Reporting System',
         text: 'Addressing elevator breakdown concerns, our proactive monitoring system revolutionizes safety, especially in private homes. Unlike traditional methods, our patented Error Notification System, inspired by German Super Cars, alerts users before issues arise, enabling timely intervention and minimizing downtime. With advanced warnings and immediate action, it ensures the well-being of loved ones and prevents potential malfunctions, elevating the overall safety of elevator systems.',
         // date: '02/05/2023',
@@ -185,9 +185,9 @@ export const ELIGANCEANDSTYLE: any[] = [
     //     // date: '03/06/2023',
     // },
     {
-        image: mosqueImg,
-        imageWebp: mosqueWebp,
-        // alt: 'Вид на мечеть',
+        image: intelligentControls,
+        imageWebp: intelligentControls,
+        alt: 'Multi Layered Safety feature',
         title: 'Multi Layered Safety',
         text: 'Highlighting elevator operation risks, our multi-layered safety approach for private homes includes primary and secondary batteries, a mechanical button for descent, a manual emergency key on each floor, and a trap door for top-of-cabin accessibility. These layers ensure reliable performance during power disruptions, offer alternative descent options, and facilitate safe passenger rescue, demonstrating our commitment to elevated safety measures in home elevators.',
         // date: '03/06/2023',
@@ -196,32 +196,32 @@ export const ELIGANCEANDSTYLE: any[] = [
 
 export const POSTS: BlogPostCardType[] = [
     {
-        image: italyImg,
-        imageWebp: italyWebp,
+        image: gearLessLift,
+        imageWebp: gearLessLift,
         alt: 'italyImg',
         title: 'italyImg',
         text: 'italyImg',
         date: '01/04/2023',
     },
     {
-        image: flightImg,
-        imageWebp: flightWebp,
+        image: energySavingFeature,
+        imageWebp: energySavingFeature,
         alt: 'flightImg',
         title: 'flightImg',
         text: 'flightImg',
         date: '01/04/2023',
     },
     {
-        image: backpackImg,
-        imageWebp: backpackWebp,
+        image: intelligentControlSystems,
+        imageWebp: intelligentControlSystems,
         alt: 'backpackImg',
         title: 'backpackImg',
         text: 'backpackImg',
         date: '02/05/2023',
     },
     {
-        image: mosqueImg,
-        imageWebp: mosqueWebp,
+        image: intelligentControls,
+        imageWebp: intelligentControls,
         alt: 'mosqueImg',
         title: 'mosqueImg',
         text: 'mosqueImg.',
@@ -231,44 +231,44 @@ export const POSTS: BlogPostCardType[] = [
 
 export const PHOTOS: GalleryPhotoType[] = [
     {
-        image: img1,
-        imageWebp: img1,
-        description: 'img1'
+        image: custimised_elevator_1,
+        imageWebp: custimised_elevator_1,
+        description: 'custimized cabins'
     },
     {
-        image: img2,
-        imageWebp: img2,
-        description: 'img2'
+        image: custimised_elevator_1,
+        imageWebp: custimised_elevator_2,
+        description: 'custimized glass cabins'
     },
-    {   image: img3, 
-        imageWebp: img3, 
-        description: 'img3'
+    {   image: custimised_elevator_3, 
+        imageWebp: custimised_elevator_3, 
+        description: 'eligance cabins'
     },
     {
-        image: img4,
-        imageWebp: img4,
-        description: 'img4'
+        image: custimised_elevator_4,
+        imageWebp: custimised_elevator_4,
+        description: 'custimized cabins of your needes'
     },
-    {   image: img5, 
-        imageWebp: img5, 
-        description: 'img5'
+    {   image: custimised_elevator_5, 
+        imageWebp: custimised_elevator_5, 
+        description: 'custimized'
     },
     // {
     //     image: img6,
     //     imageWebp: img6,
     //     description: 'img6'
     // },
-    {   image: img7, 
-        imageWebp: img7, 
-        description: 'img7'
+    {   image: custimised_elevator_6, 
+        imageWebp: custimised_elevator_6, 
+        description: 'custimized lifts'
     },
-    {   image: img8, 
-        imageWebp: img8, 
-        description: 'img8'
+    {   image: custimised_elevator_7, 
+        imageWebp: custimised_elevator_7, 
+        description: 'custimized elevators'
     },
-    {   image: img9, 
-        imageWebp: img9, 
-        description: 'img9'
+    {   image: custimised_elevator_8, 
+        imageWebp: custimised_elevator_8, 
+        description: 'custimized car'
     }
 ];
 
@@ -326,5 +326,6 @@ export const TINY_SLIDER_SETTINGS = {
     autoplayButton: false,
     animateDelay: 1,
     autoplayTimeout: 2000,
-    autoplayButtonOutput: false
+    autoplayButtonOutput: false,
+    autoplayHoverPause: true,
 };

@@ -61,7 +61,8 @@ export const StyledAboutSection = styled.div`
         }
 
         .image-outer {
-            height: 526px;
+            height: 660px;
+            padding-left: 220px;
             justify-content: flex-end;
             align-items: end;
         }

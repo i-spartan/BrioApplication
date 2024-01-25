@@ -23,6 +23,11 @@ import Snackbar from '@mui/material/Snackbar';
 import MuiAlert, { AlertProps } from '@mui/material/Alert';
 import { Typography } from '@mui/material';
 import CallIcon from '@mui/icons-material/Call';
+import IconButton from '../components/IconButton/IconButton';
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const HomePage = () => {
 
@@ -101,6 +106,42 @@ const HomePage = () => {
 
     return (
         <>
+            <div style={{ backgroundColor: 'rgb(163 125 10 / 91%)', 
+            display: 'flex',
+             justifyContent: 'space-between', 
+             height: '30px', 
+             alignItems: 'center', 
+             paddingLeft: '35px', 
+             paddingRight: '35px',
+             paddingTop: '2px',
+             paddingBottom: '2px' }}>
+                <div style={{display: 'flex', columnGap: '10px'}}>
+                    <IconButton
+                        icon={() => <><LinkedInIcon /></>}
+                        onClick={() => window.open('https://www.linkedin.com/company/brioelevators/?viewAsMember=true', "_blank")}
+                        ariaLabel="linkedin"
+                    />
+                    <IconButton
+                        icon={() => <><FacebookIcon /></>}
+                        onClick={() => window.open('https://www.facebook.com/BRIOElevators?mibextid=ZbWKwL', "_blank")}
+                        ariaLabel="facebook"
+                    />
+                    <IconButton
+                        icon={() => <><YouTubeIcon /></>}
+                        onClick={() => window.open('https://www.youtube.com/@BrioElevators', "_blank")}
+                        ariaLabel="youtube"
+                    />
+                    <IconButton
+                        icon={() => <><InstagramIcon /></>}
+                        onClick={() => window.open('https://www.instagram.com/brioelevators/', "_blank")}
+                        ariaLabel="instagram"
+                    />
+                </div>
+                <div style={{color: 'white', display: 'flex', columnGap: '15px'}}>
+                    Info: info@brioelevators.com
+                    <><CallIcon fontSize='small' sx={{ color: "white" }} /> +91-9398113939</>
+                </div>
+            </div>
             <Header submitForm={submitForm} openModalFunc={openModalFunc} onMenuItemClick={onMenuItemClick} />
             <AboutSection openModalFunc={openModalFunc} />
             <AdvantagesSection images={ADVANTAGES_IMAGES} downloadBroucher={downloadBroucher} />
@@ -121,13 +162,13 @@ const HomePage = () => {
                 submitForm={submitForm}
                 downloadBroucher={downloadBroucher}
             />
-            <FooterSection onMenuItemClick={onMenuItemClick}/>
+            <FooterSection onMenuItemClick={onMenuItemClick} />
             <CompanyInfoSection />
 
             <DialogSection openModal={openModal} submitForm={submitForm} error={error} />
             <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
                 <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
-                    <Typography variant='body1'>Thankyou for showing intrest in BRIO ELEVATORS.</Typography> <br />
+                    <Typography variant='body1'>Thankyou for showing interest in BRIO ELEVATORS.</Typography> <br />
                     we got your details, We will get back as soon as possible.<br />
                     You can reachout on <br />
                     Phone :  +91-9398113939<br />

@@ -101,7 +101,7 @@ const DialogSection = ({ openModal, submitForm, error }: any) => {
                     </div>
                     <div className="disclaimer" style={{ paddingTop: '1rem' }}>
                         <T.Text3>
-                            Our techinical expert will reach you as soon as possible.
+                            Our technical expert will reach you as soon as possible.
                         </T.Text3>
                     </div>
                 </div>

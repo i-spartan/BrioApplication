@@ -62,7 +62,7 @@ const HikeCard = memo(
                                 </S.CardPrice>
                             </div> */}
                         </div>
-                        <div className="description-wrapper">
+                        {/* <div className="description-wrapper"> */}
                             <T.Text1
                                 className="description"
                                 color="#e5b011"
@@ -70,7 +70,7 @@ const HikeCard = memo(
                             >
                                 {description}
                             </T.Text1>
-                        </div>
+                        {/* </div> */}
                         <div className="button-wrapper" onClick={knowMore}>
                             <Button
                                 title="Know More..."
